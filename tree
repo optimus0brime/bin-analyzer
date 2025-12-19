@@ -1,12 +1,30 @@
-bin-analyze/
-├── main.c          # Argument parsing + main flow
-├── detect.c        # Phase 1: Format detection
-├── analyze.c       # Phase 2: Format-specific analysis
-├── view.c          # Hex, binary viewers, strings, entropy
-├── utils.c         # Entropy, loading file, hashes
-├── types.h         # Shared enums, structs
-├── detect.h
-├── analyze.h
-├── view.h
-├── utils.h
-└── Makefile
+.
+├── build
+│   ├── analyze.o
+│   ├── binanalyzer
+│   ├── detect.o
+│   ├── main.o
+│   ├── utils.o
+│   └── view.o
+├── include
+│   ├── analyze.h
+│   ├── detect.h
+│   ├── elf_structs.h
+│   ├── types.h
+│   ├── utils.h
+│   ├── view.h
+│   └── yara_lite.h
+├── lib
+├── LICENSE
+├── Makefile
+├── README.md
+├── src
+│   ├── analyze.c
+│   ├── detect.c
+│   ├── main.c
+│   ├── utils.c
+│   ├── view.c
+│   └── yara_lite.c
+└── tree
+
+5 directories, 23 files
