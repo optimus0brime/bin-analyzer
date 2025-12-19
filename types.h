@@ -1,0 +1,9 @@
+#ifndef TYPES_H
+#define TYPES_H
+
+typedef enum {
+    FORMAT_UNKNOWN, FORMAT_ELF, FORMAT_PE, FORMAT_MACHO,
+    FORMAT_MZ, FORMAT_AOUT, FORMAT_COFF, FORMAT_COM
+} BinaryFormat;
+
+#endif

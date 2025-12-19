@@ -1,0 +1,12 @@
+bin-analyze/
+├── main.c          # Argument parsing + main flow
+├── detect.c        # Phase 1: Format detection
+├── analyze.c       # Phase 2: Format-specific analysis
+├── view.c          # Hex, binary viewers, strings, entropy
+├── utils.c         # Entropy, loading file, hashes
+├── types.h         # Shared enums, structs
+├── detect.h
+├── analyze.h
+├── view.h
+├── utils.h
+└── Makefile
