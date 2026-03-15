@@ -5,7 +5,6 @@
 A fast, from-scratch command-line binary analyzer written in pure C. Parses ELF structures, detects packing via entropy, extracts suspicious strings, performs lightweight YARA-style IOC scanning, and provides hex/bit views — perfect for quick static analysis during CTFs, RE practice, or VAPT.
 
 Live on GitHub: https://github.com/optimus0brime/bin-analyzer  
-(Ready to move to main account black-2710 when you want)
 
 ## Features
 - Automatic binary format detection (ELF64, PE, Mach-O, MZ, etc.)
